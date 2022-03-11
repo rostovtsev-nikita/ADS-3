@@ -15,11 +15,9 @@ if (arr[b] != value)
 break;
 }
 return (b - 1) - a;
-}
-else if (arr[mid] > value) {
+} else if (arr[mid] > value) {
 e = mid;
-}
-else {
+} else {
 O = mid + 1;
 }
 }
